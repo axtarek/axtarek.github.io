@@ -1,49 +1,82 @@
-<!DOCTYPE HTML>
-<!--
-	Aerial by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>Ahmed Tarek</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-		<div id="wrapper">
-			<div id="bg"></div>
-			<div id="overlay"></div>
-			<div id="main">
+<!DOCTYPE html>
+<html lang="en">
 
-				<!-- Header -->
-					<header id="header">
-						<h1>Ahmed Tarek</h1>
-                        <!--
-						<p>Security Chief &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Never asked for this</p>
-                        -->
-						<nav>
-							<ul>
-		                        <li><a href="mailto:me@atarek.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-		                        <li><a href="https://www.linkedin.com/in/axtarek" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-                                <li><a href="https://404.atarek.com" class="icon solid fa-rss"><span class="label">Substack</span></a></li>
-	                        </ul>
-						</nav>
-					</header>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Ahmed Tarek</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Cairo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro" rel="stylesheet">
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background: #1e1e1e;
+			color: white;
+			font-family: 'Source Sans Pro', sans-serif;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			height: 100vh;
+			text-align: center;
 
-				<!-- Footer -->
-					<footer id="footer">
-						<span class="copyright">&copy; Ahmed Tarek. Design: <a href="http://html5up.net">HTML5 UP</a>.</span>
-					</footer>
+		}
 
-			</div>
-		</div>
-		<script>
-			window.onload = function() { document.body.classList.remove('is-preload'); }
-			window.ontouchmove = function() { return false; }
-			window.onorientationchange = function() { document.body.scrollTop = 0; }
-		</script>
-	</body>
+		h1 {
+			font-family: 'Source Sans Pro', sans-serif;
+			font-size: 4.35em;
+			font-weight: 900;
+			letter-spacing: -0.035em;
+			line-height: 1em;
+			margin-bottom: 0.1em;
+		}
+
+		h2 {
+			font-family: 'Cairo', sans-serif;
+			font-size: 3em;
+			font-weight: 600;
+			letter-spacing: -0.035em;
+			line-height: 1em;
+			margin-top: 0;
+		}
+
+		.icons a {
+			color: white;
+			text-decoration: none;
+			font-size: 1.75em;
+			margin: 0 0.5em;
+		}
+
+		.footer {
+			position: absolute;
+			bottom: 10px;
+			font-size: 0.8em;
+			color: #aaa;
+		}
+	</style>
+</head>
+
+<body>
+
+	<h1>Ahmed Tarek</h1>
+	<h2>أحمد طارق</h2>
+
+	<div class="icons">
+		<a href="mailto:me@atarek.com" title="Email"><i class="fas fa-envelope"></i></a>
+		<a href="https://www.linkedin.com/in/axtarek" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+		<!-- 
+		<a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+		<a href="#" title="Bluesky"><i class="fab fa-bluesky"></i></a>
+		-->
+		<a href="https://404.atarek.com" title="Substack"><i class="fas fa-rss"></i></a>
+	</div>
+
+	<div class="footer">
+		© Ahmed Tarek.
+	</div>
+
+</body>
+
 </html>

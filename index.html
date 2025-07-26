@@ -5,9 +5,9 @@
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Ahmed Tarek</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
 	<link href="https://fonts.googleapis.com/css2?family=Cairo" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro" rel="stylesheet">
+
 	<style>
 		body {
 			margin: 0;
@@ -42,11 +42,24 @@
 			margin-top: 0;
 		}
 
+		.icons {
+			margin-top: 1em;
+		}
+
 		.icons a {
-			color: white;
-			text-decoration: none;
-			font-size: 1.75em;
-			margin: 0 0.5em;
+			margin: 0 1em;
+			display: inline-block;
+		}
+
+		.icons img {
+			width: 28px;
+			height: 28px;
+			filter: brightness(0) invert(1); /* make black icons white */
+			transition: opacity 0.2s ease-in-out;
+		}
+
+		.icons img:hover {
+			opacity: 0.8;
 		}
 
 		.footer {
@@ -64,13 +77,15 @@
 	<h2>أحمد طارق</h2>
 
 	<div class="icons">
-		<a href="mailto:me@atarek.com" title="Email"><i class="fas fa-envelope"></i></a>
-		<a href="https://www.linkedin.com/in/axtarek" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-		<!-- 
-		<a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-		<a href="#" title="Bluesky"><i class="fab fa-bluesky"></i></a>
-		-->
-		<a href="https://404.atarek.com" title="Substack"><i class="fas fa-rss"></i></a>
+		<a href="mailto:me@atarek.com" title="ProtonMail" target="_blank" and rel="noopener noreferrer">
+			<img src="icons/protonmail.svg" alt="ProtonMail">
+		</a>
+		<a href="https://www.linkedin.com/in/axtarek" title="LinkedIn" target="_blank" and rel="noopener noreferrer">
+			<img src="icons/linkedin.svg" alt="LinkedIn">
+		</a>
+		<a href="https://notes.atarek.com" title="Substack" target="_blank" and rel="noopener noreferrer">
+			<img src="icons/substack.svg" alt="Substack">
+		</a>
 	</div>
 
 	<div class="footer">
